@@ -1,3 +1,4 @@
+// Получить массив объектов пользователей по цвету глаз (поле eyeColor).
 import users from "./users.js";
 const getUsersWithEyeColor = (users, color) => {
     return users.filter(({ eyeColor }) => eyeColor === color);
